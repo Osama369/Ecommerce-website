@@ -1,11 +1,16 @@
 import React from 'react'
-
+ 
 export default function Navbar() {
   return (
    <>
+
      <nav className="navbar navbar-expand-lg bg-body-tertiary  ">
         <div className="container-fluid bg-dark text-white" style={{height:'100px'}}>
-          <a className="navbar-brand text-warning pl=10" href="#">KababJeez Goat Farm</a>
+
+          <a className="navbar-brand text-warning pl=10" href="#"> <span>   <img src="./src/assets/react.svg"  alt=""  width={'56px'} height={'56px'}  />
+            </span>  
+          
+            KababJeez Goat Farm</a>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon" />
           </button>
